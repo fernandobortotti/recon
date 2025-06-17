@@ -1,4 +1,4 @@
-# 🕵 Recon Script – `enum.sh`
+# 🕵 Recon Script – `recon.sh`
 
 Automatize a enumeração de subdomínios, descoberta de endpoints e coleta de caminhos sensíveis em programas de Bug Bounty.
 
@@ -20,7 +20,7 @@ Automatize a enumeração de subdomínios, descoberta de endpoints e coleta de c
 
 ## Sobre
 
-`enum.sh` realiza as seguintes tarefas:
+`recon.sh` realiza as seguintes tarefas:
 
 * Enumeração de subdomínios com Subfinder, Findomain, Assetfinder, Haktrails, GitHub Search.
 * Identificação de domínios ativos via Naabu + Httpx.
@@ -59,7 +59,7 @@ O script detecta automaticamente o pacote da sua distro e sugere comandos de ins
 2. Dê permissão de execução:
 
    ```bash
-   chmod +x enum.sh
+   chmod +x recon.sh
    ```
 
 ---
@@ -67,7 +67,7 @@ O script detecta automaticamente o pacote da sua distro e sugere comandos de ins
 ## Uso
 
 ```bash
-./enum.sh -d exemplo.com
+./recon.sh -d exemplo.com
 ```
 
 * `-d`: domínio-alvo (obrigatório)
